@@ -12,14 +12,15 @@ body {
   height: 100%;
   width: 100%;
   /* background-color: rgba(152, 135, 250, 0.349); */
-  background: radial-gradient(lightseagreen,pink);
+  /* background: radial-gradient(lightseagreen,pink); */
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 #card {
-  height: 550px;
-  width: 360px;
+  height: 490px;
+  width: 310px;
   background-color: #fff;
   border-radius: 50px;
   display: flex;
@@ -28,7 +29,6 @@ body {
   flex-direction: column;
   padding: 30px 40px;
   text-align: center;
-  border: 1px solid #000;
 }
 #card img {
   height: 120px;
@@ -39,22 +39,22 @@ body {
   border: 3px solid rgba(0, 0, 0, 0.692);
 }
 #card h1 {
-  font-size: 35px;
+  font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
 }
 #card p {
   font-family: cursive;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   color: #555;
 }
 #card h4 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   font-weight: 600;
 }
 #card h5 {
-  font-size: 30px;
+  font-size: 25px;
   /* color:salmon; */
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -66,7 +66,7 @@ body {
 }
 #card button {
   padding: 12px 25px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: #fff;
   background-color: rgba(255, 105, 180, 0.705);
